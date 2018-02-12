@@ -26,5 +26,8 @@ else()
     endif()
 endif()
 
+set(HAVE_PARENT_BUILD TRUE)
+set(TCLMAN_GENERATED TRUE)
+
 set(SUBDIRS tcl tk)
 add_subdirectory(${SUBDIRS})
